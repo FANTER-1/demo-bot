@@ -205,3 +205,52 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Конфиги и секреты
+.env
+config.py
+*.env
+secrets/
+credentials.json
+
+# Базы данных и логи
+*.db
+*.sqlite
+*.log
+logs/
+
+# Кэш и временные файлы
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Файлы IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Временные файлы ОС
+.DS_Store
+Thumbs.db
+
+# Питоновские артефакты
+*.egg-info/
+dist/
+build/
+*.mo
+*.pot
+
+# Обфусцированный код 
+dist/
+obfuscated/
+
+# Деплой-специфичные файлы
+venv/
+.env.local
+.env.development
+.env.production
+
+.idea/workspace.xml
+.idea/modules.xml
